@@ -1,0 +1,15 @@
+﻿Nombre: PEDRO BARUC AZGAD DE J GARCIA
+Correo electrónico: pbaruc@gmail.com
+Rol: ANALISTA
+Dirección: CALI
+Soy PSICOLOGO.
+Actividades como Integrante del Equipo de Trabajo:
+•   Asumir un Rol en el Equipo de Trabajo   
+•   Descargar Visual Studio Code.
+•	Crear Cuenta en Github y articularla con el Equipo de Trabajo.
+•	Cuenta en Trello y articularla con el Equipo de Trabajo.
+Actividades como Analista: Levantar las necesidades del negocio para convertirlas en requerimientos del sistema
+Avances de las actividades como Analista:
+•	Identificar las necesidades del Equipo de Trabajo para asumir un negocio.
+•	Generar estrategias de trabajo en equipo para convertir las necesidades en requerimientos del sistema.
+	
