@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoVendedores</title>
+</head>
+
+<body>
+    <h2>GESTIÓN DE LA INFORMACIÓN DE LOS VENDEDORES</h2>
+    <form>
+        <label for="ID">
+            ID Vendedor
+        <input placeholder="ID Vendedor"/>
+        </label>
+
+        <label for="nombre">
+            Nombres
+       <input placeholder="Escriba su nombre"/>
+       </label>
+
+        <label for="apellido">
+             Apellidos
+        <input placeholder="Escriba su apellido"/>
+        </label>
+
+        <label for="dirección">
+            Dirección
+       <input placeholder="Ingrese su dirección"/>
+       </label>
+
+       <label for="telefono">
+        Teléfono
+   <input  placeholder="Ingrese su teléfono"/>
+   </label>
+   <label for="email">
+    Email
+    <input  type="email" placeholder="Ingrese su correo"/>
+  
+        <button type="submit" style="color: white; background-color: red">Ingresar datos</button>
+        <button type="reset"style="color: white; background-color: red">Reiniciar</button>
+    </form>
+</body>
+</html>
