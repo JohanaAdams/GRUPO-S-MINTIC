@@ -1,0 +1,79 @@
+     *{
+         margin: 0px;
+         padding: 0%;
+     } 
+      
+     
+     body{
+        background: rgb(251, 255, 251); 
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     #container{
+         /*width: 70%;*/
+         width: 1100px;
+         margin: 0px auto;
+         border: 1px solid blueviolet;
+
+     }
+     header{
+        border-radius: 5px;
+         background: darkslateblue;
+         height: 100px;
+         width: 100%;
+         text-align: center;
+         line-height: 100px;
+         color: rgb(236, 240, 245);
+         border-bottom: 1px dashed rgb(174, 174, 255);
+     }
+
+     nav{
+         background: rgb(74, 149, 248);
+         height: 50px;
+         border-bottom: 1px dashed rgb(79, 151, 245);
+     
+     }
+
+     nav ul li{
+         float: left;
+         list-style: none;
+         margin: 10px;
+         line-height: 30px;
+     }
+     clearfix{
+         clear: both;
+     }
+     #content {
+        float: left;
+        width: 80%;background: gainsboro;
+        min-height: 500px;
+        
+
+     }  
+
+     aside{
+         float: left;
+         width: 20%;
+         background-color: floralwhite;
+         min-height: 500px;
+     }
+     footer{
+         background:lightcoral;
+         color: rgb(26, 2, 2);
+         text-align: center;
+         height: 50px;
+         line-height: 50px;
+     }
+
+     input:hover{
+      border-radius: 20px;
+      color: aquamarine;
+     }
+    
+    .logo{
+        float: left;
+        height: 90px;
+        width: 90px;
+        padding: 6px 6px;
+    }
+
+    
