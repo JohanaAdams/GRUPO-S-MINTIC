@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://unsplash.com/photos/RTEbHyyZtnU); 
+    margin: 0px;
+}
+ul {
+    list-style: none;
+    margin: 1px;
+    padding: 2px;
+}
+.usuarioVenta{
+    padding: 5px;
+    text-align: right; 
+    justify-content: space-between;   
+}
+.mainButton {
+    background-color:rgba(25, 216, 190, 0.788);
+    color:rgb(23, 36, 158) ;    
+    border: rgb(23, 36, 158);
+    padding: 10px;
+    border-radius: 12px;
+    font-weight:bolder; 
+    font-family: cursive;
+}
+.mainButton:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    box-shadow:2px 2px rgb(9, 149, 173);
+} 
+.User {
+    background-color: white;
+    border: 1px solid rgb(9, 149, 173);
+    padding: 4px;
+    border-radius: 8px;
+    width: 230px;
+    } 
+ .User:focus-within{
+     border: 1px solid burlywood;
+ }
+.User > input {
+    outline: none;
+    border: 0px;
+    font-family: cursive;
+}
+.fuenteTitulo {
+    font-family: cursive;
+    font-weight: initial;
+}
+
+
