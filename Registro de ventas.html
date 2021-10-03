@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pngwing.com.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="Estilos reg ven.css" type="text/css">
+    <script src="https://kit.fontawesome.com/66cd0a92be.js" crossorigin="anonymous"></script>
+    <title> Registro de ventas </title>
+    <ul class="logo fuenteTitulo">
+        <li>
+            <img src="./logo2.png" class="img"/>
+        </li>
+        <li>Ingresar</li>
+        <li>Productos</li>
+        <li>Proveedores</li>
+        <li>Registrar venta</li>
+        <li>Clientes</li>
+        <li>Consultas</li>
+    </ul>
+</head>
+<body>    
+    <header>   
+        <div id="datosCliente">
+            <ul>
+            <h1 class="fuenteTitulo"> Datos del cliente </h1>
+            <h3 class="fuenteTitulo"> Nombres y apellidos</h3>
+                <div class="User">
+                   <input placeholder="Nombre del cliente"/>
+                    <i class="far fa-user"></i>  
+                </div>             
+            <h3 class="fuenteTitulo"> Numero de identificaciòn </h3>
+                <div class="User">
+                    <input placeholder="Identificacion del cliente"/> 
+                    <i class="fas fa-hashtag"></i>    
+                </div>              
+            <h3 class="fuenteTitulo Telefono"> Telefono  </h3>
+            <div class="User"> 
+                <input placeholder="Numero de contacto"/> 
+            <i class="fas fa-mobile-alt"></i>  
+            </div>                   
+            <h3 class="fuenteTitulo"> Direccion  </h3>
+            <div class="User">
+                <input placeholder="En caso de domicilio"/>  
+            <i class="fas fa-map-marked-alt"></i> 
+            </div>                                
+            <h3><button class="mainButton">CONTINUAR</button></h3>
+        </ul>        
+        </div> 
+        <div id="ventas">            
+            <div id="agregarCarrito">
+                <h1 class="fuenteTitulo"> Ingrese informacion de la venta  </h1>
+                <h3 class="fuenteTitulo"> Codigo del producto </h3>
+                <div class="User">
+                   <input placeholder="Articulo codificado"/>
+                    <i class="fas fa-hashtag"></i>  
+                </div>             
+            <h3 class="fuenteTitulo"> Cantidad </h3>
+                <div class="User">
+                    <input placeholder="Total de unidades"/> 
+                    <i class="fas fa-sort-numeric-up-alt"></i>   
+                </div>              
+            <h3 class="fuenteTitulo Telefono"> Precio unitario </h3>
+            <div class="User"> 
+                <input placeholder="Precio con iva"/> 
+                <i class="fas fa-dollar-sign"></i>             
+            </div>
+            <h3><button class="mainButton">AGREGAR AL CARRITO</button></h3>
+        </div>  
+            <div id="compraTotal">
+                <h1 class="fuenteTitulo"> Registrar producto</h1>
+                <style type="text/css">
+                    table, th, td {
+                        border: 1px solid blue;
+                    }
+                    th, td {
+                        padding: 15px;
+                    }
+                    td {
+                        text-align: center;
+                    }
+                </style>
+                <table style="width: 100%;">
+                    <tr class="fuenteTitulo">
+                        <th>Item</th>                        
+                        <th>Codigo</th>
+                        <th>Producto</th>
+                        <th>Cant</th>
+                        <th>Valor unitario</th>
+                        <th>Valor total</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>                                        
+                </table>
+                <table style="width: 100%;">
+                   <tr>
+                       <th rowspan="3">Venta</th>
+                       <td>Valor antes de iva</td>
+                   </tr>
+                <tr>                   
+                    <td>IVA</td>
+                </tr>
+                <tr>                   
+                    <td>Total</td>
+                </tr>                  
+                </table>
+                <h3 class="fuenteTitulo"> Vendedor </h3>
+            <div class="User">
+                <input placeholder="Nombre del usuario"/>
+            </div>
+            <div id=factura>
+                <h3><button class="mainButton">GENERAR FACTURA</button></h3>
+            </div>            
+            </div>                   
+            
+           
+                  
+    </header>
+    
+</body>
+</html>
