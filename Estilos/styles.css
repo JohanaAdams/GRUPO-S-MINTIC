@@ -95,3 +95,9 @@
         grid-template-columns: 50% 50%;
                
     }
+    .imagen {
+        position:absolute;
+        height: 400px;
+        width: 600px;
+        padding: 6px 6px;
+   }
