@@ -1,0 +1,162 @@
+body{
+    
+    background-color: rgba(77, 159, 214, 0.781);
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 1px;
+    padding: 2px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+}
+.usuarioVenta{
+    padding: 5px;
+    text-align: right; 
+    justify-content: space-between;   
+}
+.mainButton {
+    background-color:rgba(77, 159, 214, 0.781);
+    color:rgb(0, 0, 0) ;    
+    border: rgb(16, 75, 153);
+    padding: 10px;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+         
+    }
+.mainButton:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    box-shadow:2px 2px rgb(0, 0, 0);
+    } 
+.User {
+    background-color: white;
+    border: 1px solid rgb(9, 149, 173);
+    padding: 4px;
+    border-radius: 8px;
+    width: 205px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+ .User:focus-within{
+     border: 1px solid burlywood;
+ }
+.User > input {
+    outline: none;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuenteTitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: bolder;
+    }
+
+.img {
+    height: 70px;
+}
+#datosCliente {
+    background-color: azure;
+    width: 19%;
+    height: 80%;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+#ventas {
+    background-color: azure;
+    width: 75%;
+    height: 80%;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+#agregarCarrito{
+    background-color: paleturquoise;
+    width: 30%;
+    height: 70%;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+#compraTotal {
+    background-color: paleturquoise;
+    width: 60%;
+    height: 70%;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+
+}
+#factura {
+    float: right;
+}
+#compraFinalizada {
+    background-color: azure;
+    width: 60%;
+    height: 70%;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;   
+
+}
+.container {
+    display: flex;
+    border-radius: 4px;
+    height: auto;
+    justify-content: space-between;
+    
+}
+.botonAgregar {
+    background-color:rgba(77, 159, 214, 0.781);
+    color:rgb(0, 0, 0) ;    
+    border: rgb(16, 75, 153);
+    padding: 5px;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+         
+    }
+.botonAgregar:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    box-shadow:2px 2px rgb(0, 0, 0);
+    } 
+.botonTerminar {
+    background-color:rgba(65, 223, 60, 0.781);
+    color:rgb(0, 0, 0) ;    
+    border: rgba(44, 172, 40, 0.781);
+    padding: 5px;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+         
+    }
+.botonTerminar:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    box-shadow:2px 2px rgb(0, 0, 0);
+    } 
+.botonCancelar {
+    background-color:rgb(253, 247, 212);
+    color:rgb(0, 0, 0) ;    
+    border: rgb(122, 113, 60);
+    padding: 5px;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+         
+    }
+.botonCancelar:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    box-shadow:2px 2px rgb(0, 0, 0);
+    }     
+
+
+

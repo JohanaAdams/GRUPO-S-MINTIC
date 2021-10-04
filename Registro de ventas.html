@@ -12,7 +12,7 @@
         <li>
             <img src="./logo2.png" class="img"/>
         </li>
-        <li>Ingresar</li>
+        <li>Usuario</li>
         <li>Productos</li>
         <li>Proveedores</li>
         <li>Registrar venta</li>
@@ -27,7 +27,7 @@
             <h1 class="fuenteTitulo"> Datos del cliente </h1>
             <h3 class="fuenteTitulo"> Nombres y apellidos</h3>
                 <div class="User">
-                   <input placeholder="Nombre del cliente"/>
+                   <input type="text" placeholder="Nombre del cliente"/>
                     <i class="far fa-user"></i>  
                 </div>             
             <h3 class="fuenteTitulo"> Numero de identificaciòn </h3>
@@ -51,6 +51,7 @@
         <div id="ventas">            
             <div id="agregarCarrito">
                 <h1 class="fuenteTitulo"> Ingrese informacion de la venta  </h1>
+                
                 <h3 class="fuenteTitulo"> Codigo del producto </h3>
                 <div class="User">
                    <input placeholder="Articulo codificado"/>
@@ -58,10 +59,10 @@
                 </div>             
             <h3 class="fuenteTitulo"> Cantidad </h3>
                 <div class="User">
-                    <input placeholder="Total de unidades"/> 
+                    <input type="number" placeholder="Total de unidades"/> 
                     <i class="fas fa-sort-numeric-up-alt"></i>   
                 </div>              
-            <h3 class="fuenteTitulo Telefono"> Precio unitario </h3>
+            <h3 class="fuenteTitulo "> Precio unitario </h3>
             <div class="User"> 
                 <input placeholder="Precio con iva"/> 
                 <i class="fas fa-dollar-sign"></i>             
@@ -70,6 +71,13 @@
         </div>  
             <div id="compraTotal">
                 <h1 class="fuenteTitulo"> Registrar producto</h1>
+                <label>
+                    <h3 class="fuenteTitulo"> Fecha de venta </h3></p>
+                <div class="User">
+                    <input type="date"/>                    
+                 </div>  
+                </label>
+
                 <style type="text/css">
                     table, th, td {
                         border: 1px solid blue;
@@ -123,8 +131,11 @@
             <div class="User">
                 <input placeholder="Nombre del usuario"/>
             </div>
-            <div id=factura>
-                <h3><button class="mainButton">GENERAR FACTURA</button></h3>
+            <div id=factura>                
+                    <a href="./pos registro de venta.html">
+                        <h3><button class="mainButton">GENERAR FACTURA</button></h3>     
+                    </a>
+               
             </div>            
             </div>                   
             
