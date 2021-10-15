@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import NavbarComponents from "../shared/components/navbar/NavbarComponents";
 import "./RegisterStyles.css"
 
 function RegisterPage() {

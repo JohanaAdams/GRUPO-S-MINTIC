@@ -1,48 +1,46 @@
-import React, { Fragment } from "react";
-import NavbarComponents from "../shared/components/navbar/NavbarComponents";
-import './LoginStyles.css';
-import {Link} from "react-router-dom";
+import React, { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
+import "./LoginStyles.css"
+
 function LoginPage() {
+
 
     return (
         <Fragment>
-           <div class="fondo">
-                <h1>Login Page</h1>
-                <br class="fondo"/>
-           </div>
-           <form class="fondo">
-               
-                <div class="row mb-3 fondo-blanco">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control login-title" id="inputEmail3"/>
+            <div className=" container-fluid fondo">
+                <br />
+                <div className="container fondo-azulc">
+                    <div className="text-center"><br /><h5 className="letra-blanca">INICIAR SESION</h5><br />
                     </div>
+                    <div><h5 className="letra-oscura">Igresa tu Correo Electronico GMAIL</h5></div>
+                    <div className=" form-floating mb-3">
+                        <input type="email" className="login-title form-control" id="floatingInput" />
+                        <label for="floatingInput" className="letra-oscura"> Correo Electronico "GMAIL"</label>
+                    </div>
+                    <br />
+                    <div><h5 className="letra-oscura">¿Cual es tu funcion?</h5></div>
+                    <div className="form-floating ">
+                        <select class="form-select login-title" aria-label="Default select example">
+                            <option className="btn-info" selected>selecciona tu rol antes de ingresar</option>
+                            <option className="btn-info" value="1">Administrador</option>
+                            <option className="btn-info" value="2">Vendedor</option>
+                        </select>
+                    </div>
+                    <br />
+                    <div className="container">
+                        <Link to="/AreaTrabajo" class="btn btn-primary ">INGRESAR
+                        </Link>
+                    </div>
+                    <br />
+                    <div class="text-center">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_960_720.jpg" class="rounded" alt="" />
+                    </div>
+                    <br/>
                 </div>
- 
-                <fieldset class="row mb-3 fondo-blanco">
-                    <legend class="col-form-label col-sm-2 pt-0">Tipo de usuario</legend>
-                   
-                    <div class="col-sm-10">
-                        
-                        <div class="form-check login-title">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked/>
-                            <label class="form-check-label" for="gridRadios1">Administrador
-                            </label>
-                        </div>
-                        
-                        <div class="form-check login-title">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2"/>
-                            <label class="form-check-label" for="gridRadios2">Vendedor
-                            </label>
-                        </div>
-                    
-                    </div>
-                </fieldset>
-                    
-                   
-                
-                <Link to="/areaTrabajo" className="nav-link stylLetra"type="submit" class="btn btn-dark">Area de Trabajo</Link>  
-            </form>
+                <br/>
+
+
+            </div>
         </Fragment>
 
     )
