@@ -1,37 +1,45 @@
-import React from "react";
-import {Link} from "react-router-dom";
-import "./NavarStyle.css"
+import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
-function NavbarComponents(props){
 
-let title = props.title;
-let data = props.data;
+function NavbarComponents() {
 
-return (
-    <nav className="navbar navbar-expand-lg bg-primario">
-    <div className="container-fluid">
-        <a className="navbar-brand" href="#">{title}</a>
-        <button className="navbar-toggler" type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navbarNavAltMarkup" 
-        aria-controls="navbarNavAltMarkup" 
-        aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-                <Link to="/" className="nav-link active stylLetra" 
-                aria-current="page">My-Negocio</Link>
-                <Link to="/login" className="nav-link stylLetra">Login</Link>
-                <Link to="/Register" className="nav-link stylLetra">Register</Link>
-            
-            
+   
+
+    return (
+        <Fragment>
+            <nav className="navbar navbar-expand-lg bg-primario">
+                <div className="container">
+
+                    <div className="container collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
+                            <Link to="/login" className="nav-link btn btn-light ">INICIAR SESION</Link>
+                        </div>
+                        <div className="navbar-nav">
+                            <Link to="/Register" className="nav-link btn btn-dark">REGISTRARSE</Link>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div className="container-fluid">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="container carousel-inner">
+                        <div class="carousel-item">
+                            <img src="http://4.bp.blogspot.com/-Nies-LnMz1w/UT9I6OhvewI/AAAAAAAALaw/uhk7aPZ7L_c/s1600/ejemplos-planes-empresa-gratis.jpg" class="d-block w-100" alt="" />
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="https://img.lovepik.com/photo/40017/1135.jpg_wh860.jpg" class="d-block w-100" alt="" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.istockphoto.com/photos/creative-business-people-working-on-business-project-in-office-picture-id1164704303" class="d-block w-100" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</nav>
-)
-} 
+        </Fragment>
+
+    )
+}
 
 
 export default NavbarComponents;
